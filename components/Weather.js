@@ -23,7 +23,7 @@ export const Weather = ({ weather }) => {
             <Image
               style={styles.weatherIcon}
               source={{
-                uri: `http://openweathermap.org/img/wn/${weather.icon}@2x.png`,
+                uri: `https://openweathermap.org/img/wn/${weather.icon}@2x.png`,
               }}
             />
           </View>
